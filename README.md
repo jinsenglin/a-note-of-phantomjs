@@ -25,6 +25,7 @@ Install screen capture commands:
 NOTE:
 
 * Use NodeJS v4.8.0
+* Use PhantomJS v2.1.1
 * To build the forked version of PhantomJS for DeckTape, see https://github.com/astefanutti/decktape#build
 
 ---
@@ -37,3 +38,12 @@ Examples
 
 `pageres www.google.com 1024x768` generates google.com-1024x768.png
 
+---
+
+Troubleshooting
+
+Problem: ETWORK_ERR: XMLHttpRequest Exception 101: A network error occurred in synchronous requests
+
+Solution: use PhantomJS v1.9.8
+
+Reference: http://stackoverflow.com/questions/34210455/node-4-2-0-phantom-stdout-network-err-xmlhttprequest-exception-101-a-network
