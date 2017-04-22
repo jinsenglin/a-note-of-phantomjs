@@ -1,5 +1,12 @@
 # Screen Capture
 
+Conclusion:
+
+* Use capturejs for rich funcitons
+* Use pageres for quick start
+
+---
+
 Available commands:
 
 * capturejs --uri `<url>`
