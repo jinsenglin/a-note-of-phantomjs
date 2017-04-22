@@ -21,3 +21,5 @@ Install screen capture commands:
 * npm install -g capturejs
 * curl -L https://github.com/astefanutti/decktape/archive/v1.0.0.tar.gz | tar -xz --exclude phantomjs
 * npm install -g pageres-cli
+
+NOTE: use NodeJS v4.8.0
