@@ -32,7 +32,7 @@ NOTE:
 
 Examples
 
-`capturejs --uri https://www.google.com --output google.com.png` throws NETWORK_ERR: XMLHttpRequest Exception 101: A network error occurred in synchronous requests
+`capturejs --uri https://www.google.com --output google.com.png` generates google.com.png
 
 `phantomjs decktape.js --screenshots www.google.com` throws Error: Cannot find module 'printer'
 
@@ -42,7 +42,7 @@ Examples
 
 Troubleshooting
 
-Problem: ETWORK_ERR: XMLHttpRequest Exception 101: A network error occurred in synchronous requests
+Problem: `capturejs --uri https://www.google.com --output google.com.png` throws NETWORK_ERR: XMLHttpRequest Exception 101: A network error occurred in synchronous requests
 
 Solution: use PhantomJS v1.9.8
 
