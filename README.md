@@ -25,7 +25,7 @@ Install screen capture commands:
 NOTE:
 
 * Use NodeJS v4.8.0
-* Use PhantomJS v2.1.1
+* Use PhantomJS v1.9.8 (v2.1.1 causes `capturejs` to fail)
 * To build the forked version of PhantomJS for DeckTape, see https://github.com/astefanutti/decktape#build
 
 ---
