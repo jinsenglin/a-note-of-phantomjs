@@ -1,6 +1,6 @@
-# Introduction
+# Screen Capture
 
-Screen capture commands:
+Available commands:
 
 * capturejs --uri `<url>`
 * cd `DeckTape Installation` && phantomjs decktape.js --screenshots `<url>`
