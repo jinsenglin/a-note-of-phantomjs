@@ -61,6 +61,12 @@ page.open("https://www.google.com", function (status) {
             }, function() {
                console.log("The search textbox should be visible now.");
                page.render("2-ok.png");
+
+               page.evaluate(function() {
+                   document.forms[0].querySelector("input[name=q]").value = "phantomjs";
+               });
+               page.render("3-ok.png");
+
                phantom.exit();
             });
 
