@@ -9,7 +9,7 @@ Conclusion:
 
 Available commands:
 
-* capturejs --uri `<url>`
+* capturejs --uri `<url>` --output `<filename>`
 * cd `DeckTape Installation` && phantomjs decktape.js --screenshots `<url>`
 * pageres `<url>` `<resolution>`
 
