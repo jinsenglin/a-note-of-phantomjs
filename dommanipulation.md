@@ -42,7 +42,7 @@ page.open('https://www.google.com', function(status) {
 var page = require('webpage').create();
 page.open('https://www.google.com', function(status) {
   page.onLoadFinished = function(){
-      page.render("nextPage.png");
+      page.render("example3-search-result.png");
       phantom.exit();
   };
 
