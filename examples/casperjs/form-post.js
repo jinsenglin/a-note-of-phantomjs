@@ -1,4 +1,8 @@
-var casper = require('casper').create();
+var casper = require('casper').create({
+	verbose: true,
+	logLevel: 'debug',
+});
+
 casper.start().thenOpen('http://localhost/form/handler/api', {
 	method: 'post',
 	headers: {
@@ -8,7 +12,7 @@ casper.start().thenOpen('http://localhost/form/handler/api', {
 }, function(resp) {
 	this.echo("POST request has been sent.");
 	this.echo(resp.status);
-	require('utils').dump(this.page.content);
+	require('utils').dump(this.page.plainText);
 });
 
 casper.run();
